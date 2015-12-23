@@ -1,0 +1,14 @@
+$def with (toUser,fromUser,createTime,musicTitle,musicDes,musicURL)
+<xml>
+    <ToUserName><![CDATA[$toUser]]></ToUserName>
+    <FromUserName><![CDATA[$fromUser]]></FromUserName>
+    <CreateTime>$createTime</CreateTime>
+    <MsgType><![CDATA[music]]></MsgType>
+    <Music>
+        <Title><![CDATA[$musicTitle]]></Title>
+        <Description><![CDATA[$musicDes]]></Description>
+        <MusicUrl><![CDATA[$musicURL]]></MusicUrl>
+        <HQMusicUrl><![CDATA[$musicURL]]></HQMusicUrl>
+    </Music>
+    <FuncFlag>0</FuncFlag>
+</xml>
